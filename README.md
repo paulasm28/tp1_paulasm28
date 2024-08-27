@@ -1,1 +1,1 @@
-Esta página se trata sobre fruta.
+Esta página se trata sobre promocionar diferentes sabores de yoghurt para obtener beneficios en la salud. Para eso se ha inventado una marca ficticia llamada "Paula´s". 

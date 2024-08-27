@@ -8,40 +8,50 @@
 </head>
 <body>
     <header>
-        <h1>Bienvenidos a Mi Página Web</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <div class="nav-container">
+                <ul>
+                    <li class="marca">Paula's</li> 
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="scr/views/about.html">ACERCA DE</a></li>
+                    <li><a href="scr/views/content.html">SABORES</a></li>
+                </ul>
+            </div>
         </nav>
+        <h1>Bienvenido a Paula's</h1>
     </header>
 
-    <main>
-        <section>
-            <h2>Sección Principal</h2>
-            <article>
-                <h3>Artículo 1</h3>
-                <p>Este es un párrafo de ejemplo en la primera sección de la página principal.</p>
-            </article>
-            <article>
-                <h3>Artículo 2</h3>
-                <p>Este es otro párrafo de ejemplo en la primera sección de la página principal.</p>
-            </article>
-        </section>
+    <main class="main-content">
+        <div class="image-container">
+            <img src="scr/assets/imgs/yoghurt.jpg" alt="Delicioso yogurt">
+        </div>
+        <div class="text-content">
+            <section>
+                <h2>¡Disfruta de los mejores yogurts!</h2>
+                <article>
+                    <h3>Degustación de nivel mundial</h3>
+                    <p>Puedes probar los sabores más ricos gracias a nuestras frutas
+                         cuidadosamente exportadas de las mejores tierras alrededor del mundo.</p>
+                </article>
+                <article>
+                    <h3>Calidad premium</h3>
+                    <p>La leche obtenida de vacas felices de campo nos permite procesar el yogurt 
+                        en el sur de Chile y entregar la perfecta mezcla de cremosidad y suavidad.</p>
+                </article>
+            </section>
 
-        <section>
-            <h2>Otra Sección</h2>
-            <div>
-                <p>Contenido adicional organizado en un div.</p>
-            </div>
-        </section>
+            <section>
+                <h2>Consigue descuentos</h2>
+                <div>
+                    <p>Desde tu segunda compra obtiene descuentos de hasta un 20%.</p>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer id="contacto">
-        <p>Contacto: contacto@mipaginaweb.com</p>
-        <p>&copy; 2024 Mi Página Web</p>
+        <p>Contacto: hola@paulascorp.com</p>
+        <p>&copy; 2024 Paula's</p>
     </footer>
 
 </body>
