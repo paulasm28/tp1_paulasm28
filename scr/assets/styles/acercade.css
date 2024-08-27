@@ -40,6 +40,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    transform: scale(1.1); 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
 .nav-container {
     background-color: #FFD166; 
     padding: 10px;
@@ -49,15 +54,38 @@ nav ul li a {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+.main {
+    display: flex; 
+    background-color: #f4f4f4;
+}
 
 section {
     padding: 20px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 15px;
 }
 
-.main {
-    display: flex; 
-    background-color: #f4f4f4;
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 30px;
+}
+
+article img {
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px; 
 }
 
 h2 {

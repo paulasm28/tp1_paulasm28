@@ -36,6 +36,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    transform: scale(1.1); 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
 .nav-container {
     background-color: #FFD166; 
     padding: 10px;
@@ -68,7 +73,7 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     padding: 15px;
-    width: 300px; /* Ajusta el ancho de las tarjetas según tu preferencia */
+    width: 300px; 
     text-align: center;
 }
 
